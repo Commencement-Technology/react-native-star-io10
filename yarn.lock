@@ -1095,15 +1095,15 @@
     prompts "^2.4.2"
     semver "^7.5.2"
 
-"@react-native-windows/cli@0.73.2":
-  version "0.73.2"
-  resolved "https://registry.yarnpkg.com/@react-native-windows/cli/-/cli-0.73.2.tgz#e169e77f84f526d7e310590c5d77de2d83558653"
-  integrity sha512-55U7qhGMU9BPqWE3OMgFfyMgA2PHviWywOoQMnczQ3K5xcLqwYOXIumszA+DTjtXcQ9FZ5OIecX6jo4Nk3VR5Q==
+"@react-native-windows/cli@0.73.3":
+  version "0.73.3"
+  resolved "https://registry.yarnpkg.com/@react-native-windows/cli/-/cli-0.73.3.tgz#fc5d2122af750564faec099a3281560996eb88b3"
+  integrity sha512-mPlK5H/KohXUy/c7Gu/z29MtBTiUUVr8/p0bEf/Hs4jObISu4pVyU1xWNVaKXbmQ29Vbq9rWrynHNhKoEGqETw==
   dependencies:
-    "@react-native-windows/codegen" "0.73.0"
-    "@react-native-windows/fs" "0.73.0"
-    "@react-native-windows/package-utils" "0.73.0"
-    "@react-native-windows/telemetry" "0.73.1"
+    "@react-native-windows/codegen" "0.73.1"
+    "@react-native-windows/fs" "0.73.1"
+    "@react-native-windows/package-utils" "0.73.1"
+    "@react-native-windows/telemetry" "0.73.2"
     "@xmldom/xmldom" "^0.7.7"
     chalk "^4.1.0"
     cli-spinners "^2.2.0"
@@ -1122,49 +1122,49 @@
     xml-parser "^1.2.1"
     xpath "^0.0.27"
 
-"@react-native-windows/codegen@0.73.0":
-  version "0.73.0"
-  resolved "https://registry.yarnpkg.com/@react-native-windows/codegen/-/codegen-0.73.0.tgz#8f7866478baa5c02af31bf79fd44b65cd9076de0"
-  integrity sha512-M+R8JzUEizAE23MkBOuSdyDGv9BeZx47L6gUWlXI4fyM9LjXpdYU0g6la8ZWleiLrDtHW0JIz95w8KkghpB6hg==
+"@react-native-windows/codegen@0.73.1":
+  version "0.73.1"
+  resolved "https://registry.yarnpkg.com/@react-native-windows/codegen/-/codegen-0.73.1.tgz#84b9109941438b3ef2aedca07507c1a3baeebc15"
+  integrity sha512-rwOYHwG9CJu9YPvjZH4rlCDWjNoJUokcfh8belumKD8eZh6G855RiJ3SmcGoozV3r4m7fYWGs71mjQmnyPScXw==
   dependencies:
-    "@react-native-windows/fs" "0.73.0"
+    "@react-native-windows/fs" "0.73.1"
     chalk "^4.1.0"
     globby "^11.0.4"
     mustache "^4.0.1"
     source-map-support "^0.5.19"
     yargs "^16.2.0"
 
-"@react-native-windows/find-repo-root@0.73.0":
-  version "0.73.0"
-  resolved "https://registry.yarnpkg.com/@react-native-windows/find-repo-root/-/find-repo-root-0.73.0.tgz#21a2983bfd4052323a4672ed2e32a5c3af8627a7"
-  integrity sha512-ahEgLmFYNvXw5I1ETJDhNMyZ/iR+DK4iOZ9YaT4EQzEPGKgj8a/4kvStSyMa117m6yRPeM8hCrhsfsHoRCphBA==
+"@react-native-windows/find-repo-root@0.73.1":
+  version "0.73.1"
+  resolved "https://registry.yarnpkg.com/@react-native-windows/find-repo-root/-/find-repo-root-0.73.1.tgz#97856ee388f2f603adca3df94b0359a8da80a4ba"
+  integrity sha512-CsYidJxvJYIUmbqgrzZEWbVnZjvY4CpfVXlNKhi1BpYj0F26eCAHNHYS38QS+9FIoy+YOyE+jEoTsGVhXkXmOA==
   dependencies:
-    "@react-native-windows/fs" "0.73.0"
+    "@react-native-windows/fs" "0.73.1"
     find-up "^4.1.0"
 
-"@react-native-windows/fs@0.73.0":
-  version "0.73.0"
-  resolved "https://registry.yarnpkg.com/@react-native-windows/fs/-/fs-0.73.0.tgz#5fcdada259f286dff8d462505982c9113a2ca612"
-  integrity sha512-Vg0gJavc6oO4TkTMK+s8V+1KhLlJgdtuwsUaBNRfhi+Dr/lWy7GKitV6rBn/UkG8DCt9LBmwdCZWpncxSs8CDA==
+"@react-native-windows/fs@0.73.1":
+  version "0.73.1"
+  resolved "https://registry.yarnpkg.com/@react-native-windows/fs/-/fs-0.73.1.tgz#7aa9e679b81463662f8a008d895c2e2ac179a701"
+  integrity sha512-FVJeyc1uRJguEdwWsucrOnRWQOB3JlRapPqL3EKUO/i1TX0Fbd8b8MCb9pjCOihoHnN0+aCY9Y8aSar2M33kAw==
   dependencies:
     graceful-fs "^4.2.8"
 
-"@react-native-windows/package-utils@0.73.0":
-  version "0.73.0"
-  resolved "https://registry.yarnpkg.com/@react-native-windows/package-utils/-/package-utils-0.73.0.tgz#b274455210f843a39367a192e7294835a769df9a"
-  integrity sha512-a3CuH8RPBfIwwPYi7gjyLmvRTzjFfXpePdLAC6afXHNbc5+VR6QJJ/VPhO9kQEvUxrQCXKXRXMGsUWrg0TNTEA==
+"@react-native-windows/package-utils@0.73.1":
+  version "0.73.1"
+  resolved "https://registry.yarnpkg.com/@react-native-windows/package-utils/-/package-utils-0.73.1.tgz#4bdd055b1706a47491b59a488b49161500954164"
+  integrity sha512-psr0ESygZWJoyCXreRzOOJa7cIWuZ5btrpeMYvoFej1p/CaJA65pLHuFiFaFi580KkHFvHJYG8mY3K4PDzqctA==
   dependencies:
-    "@react-native-windows/find-repo-root" "0.73.0"
-    "@react-native-windows/fs" "0.73.0"
+    "@react-native-windows/find-repo-root" "0.73.1"
+    "@react-native-windows/fs" "0.73.1"
     get-monorepo-packages "^1.2.0"
     lodash "^4.17.15"
 
-"@react-native-windows/telemetry@0.73.1":
-  version "0.73.1"
-  resolved "https://registry.yarnpkg.com/@react-native-windows/telemetry/-/telemetry-0.73.1.tgz#f29d6f43a7419283edb743dcc172143435491c84"
-  integrity sha512-xaZXwmxmIrmHrj39la8t0sTSDNs8h+oVyfACSGMvRvFLA5iniSOD4toP5Ag5skO7Z9+jROdULVv4wvi6yp4zvg==
+"@react-native-windows/telemetry@0.73.2":
+  version "0.73.2"
+  resolved "https://registry.yarnpkg.com/@react-native-windows/telemetry/-/telemetry-0.73.2.tgz#fa6078a1af622690b945b4daebaaca656b2779cd"
+  integrity sha512-QOo5t6aiO+BlPdJgQGYY/9IWtOkI4h/YoAYbpuFsMsLfBuyzM+5yovoeamIf5Cd9zFYM0YUswZ0VJx4Q7zP4zQ==
   dependencies:
-    "@react-native-windows/fs" "0.73.0"
+    "@react-native-windows/fs" "0.73.1"
     "@xmldom/xmldom" "^0.7.7"
     applicationinsights "2.7.3"
     ci-info "^3.2.0"
@@ -3759,17 +3759,17 @@ react-is@^17.0.1:
   resolved "https://registry.yarnpkg.com/react-is/-/react-is-17.0.2.tgz#e691d4a8e9c789365655539ab372762b0efb54f0"
   integrity sha512-w2GsyukL62IJnlaff/nRegPQR94C/XXamvMWmSHRJ4y7Ts/4ocGRmTHvOs8PSE6pB3dWOrD/nueuU5sduBsQ4w==
 
-react-native-windows@0.73.11:
-  version "0.73.11"
-  resolved "https://registry.yarnpkg.com/react-native-windows/-/react-native-windows-0.73.11.tgz#9445e4f330ee4cda7fd076dce0a0c2dd46a58202"
-  integrity sha512-SS9GysV9qAOCk88TujvxzHOuc8JR3xjAgCYOu9wsZ0ZBBZsNQlNb7rV0pfvXD2O11tq+C1zF+L0Z44bJ+lMZ0g==
+react-native-windows@0.73.13:
+  version "0.73.13"
+  resolved "https://registry.yarnpkg.com/react-native-windows/-/react-native-windows-0.73.13.tgz#c82c43aac252dac1471fa4ff25421b709055883a"
+  integrity sha512-PBj+aEsdYx7p0YuijUMfRojGg5NTaMDe0MOQkxvLljKaBmvQw56ZPagudQbxgmdXtR7jzlGYAtT9hm/YhRyE7g==
   dependencies:
     "@babel/runtime" "^7.0.0"
     "@jest/create-cache-key-function" "^29.6.3"
     "@react-native-community/cli" "12.3.6"
     "@react-native-community/cli-platform-android" "12.3.6"
     "@react-native-community/cli-platform-ios" "12.3.6"
-    "@react-native-windows/cli" "0.73.2"
+    "@react-native-windows/cli" "0.73.3"
     "@react-native/assets-registry" "0.73.1"
     "@react-native/codegen" "0.73.3"
     "@react-native/community-cli-plugin" "0.73.17"
@@ -3806,10 +3806,10 @@ react-native-windows@0.73.11:
     ws "^6.2.2"
     yargs "^17.6.2"
 
-react-native@0.73.6:
-  version "0.73.6"
-  resolved "https://registry.yarnpkg.com/react-native/-/react-native-0.73.6.tgz#ed4c675e205a34bd62c4ce8b9bd1ca5c85126d5b"
-  integrity sha512-oqmZe8D2/VolIzSPZw+oUd6j/bEmeRHwsLn1xLA5wllEYsZ5zNuMsDus235ONOnCRwexqof/J3aztyQswSmiaA==
+react-native@0.73.8:
+  version "0.73.8"
+  resolved "https://registry.yarnpkg.com/react-native/-/react-native-0.73.8.tgz#e514bc3ecd466560b42e79c8844f356195aba5a3"
+  integrity sha512-EPURbV36NW5H0eVTmePtwuMJfxFvFokEgbaw61pCqdeOLeaGVxsU54RK8RIXpehzPuTGpQVVxTUKbvaM7F+TTw==
   dependencies:
     "@jest/create-cache-key-function" "^29.6.3"
     "@react-native-community/cli" "12.3.6"
@@ -4582,16 +4582,16 @@ write-file-atomic@^2.3.0:
     signal-exit "^3.0.2"
 
 ws@^6.2.2:
-  version "6.2.2"
-  resolved "https://registry.yarnpkg.com/ws/-/ws-6.2.2.tgz#dd5cdbd57a9979916097652d78f1cc5faea0c32e"
-  integrity sha512-zmhltoSR8u1cnDsD43TX59mzoMZsLKqUweyYBAIvTngR3shc0W6aOZylZmq/7hqyVxPdi+5Ud2QInblgyE72fw==
+  version "6.2.3"
+  resolved "https://registry.yarnpkg.com/ws/-/ws-6.2.3.tgz#ccc96e4add5fd6fedbc491903075c85c5a11d9ee"
+  integrity sha512-jmTjYU0j60B+vHey6TfR3Z7RD61z/hmxBS3VMSGIrroOWXQEneK1zNuotOUrGyBHQj0yrpsLHPWtigEFd13ndA==
   dependencies:
     async-limiter "~1.0.0"
 
 ws@^7, ws@^7.5.1:
-  version "7.5.9"
-  resolved "https://registry.yarnpkg.com/ws/-/ws-7.5.9.tgz#54fa7db29f4c7cec68b1ddd3a89de099942bb591"
-  integrity sha512-F+P9Jil7UiSKSkppIiD94dN07AwvFixvLIj1Og1Rl9GGMuNipJnV9JzjD6XuqmAeiswGvUmNLjr5cFuXwNS77Q==
+  version "7.5.10"
+  resolved "https://registry.yarnpkg.com/ws/-/ws-7.5.10.tgz#58b5c20dc281633f6c19113f39b349bd8bd558d9"
+  integrity sha512-+dbF1tHwZpXcbOJdVOkzLDxZP1ailvSxM6ZweXTegylPny803bFhA+vqBYw4s31NSAk4S2Qz+AKXK9a4wkdjcQ==
 
 xml-formatter@^2.4.0:
   version "2.6.1"
